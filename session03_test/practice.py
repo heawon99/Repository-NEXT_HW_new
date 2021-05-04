@@ -139,3 +139,88 @@
 #함수의 존재목적 =코드를 기능별로 영역구분하겠다.
 #지역변수를 쓰고 전역변수는 좀 자제해주세요. 
 
+
+
+# count = 1
+#while count < 5:
+   #if count == 3:
+     # continue
+
+  # print("%d번째 반복 중" % count)
+  # count = count + 1
+
+
+# for i in range(1, 5, 1):
+   # if i % 2 == 0:
+      #  continue
+
+   #  print("%d번째 반복중" % i)
+
+# 문제1. for문을 활용해서 1부터 10까지 숫자를 출력해주세요.
+# for i in range(1,11):
+   # print(i)
+
+
+
+# 문제2. for문을 활용해서 1부터 10까지 숫자 중 3의 배수는 제외하고 출력해주세요. (단, continue이용)
+
+# for i in range(1, 11):
+#    if i % 3 ==0:
+#       continue
+   
+#    # print(i)
+
+# count = 2
+
+# while count <6:
+#    print("*"*count)
+#    count = count + 1
+
+# for i in rnage(5):
+#     print(" " * i, end = "")
+#     print("*" * (5-i))
+
+# for i in range(5):4
+# 
+# for j in range(5):
+      # if j < i : 
+      #    print("*",end="")
+
+# for i in range(5):
+#    for j in range(5):
+#       if j < i:
+#          print(" ", end="")
+#       else:
+#          print("*",end="")
+#    print()
+
+# print("%d번째 반복 중"% 5)
+# print("%f입니다. %c호!" % (12.345, "야"))
+# print("%c입니다." %"야")
+# print("%s!"%"야호")
+
+# count = 5
+# print(f"{count}번째 반복 중")
+
+# def add(a,b):
+#    return a + b 
+# add(1,2)
+
+# print(add(1,2))
+
+# def get_number():
+#    return 4
+
+#    print(get_number())
+
+# str = input("문자열을 입력하세요.")
+
+# def reverse_str(str):
+#     for i in range(len(str)-1, -1, -1):
+#         print(str[i], end="")
+
+# reverse_str(str)
+
+
+
+
