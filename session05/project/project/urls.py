@@ -19,6 +19,8 @@ from app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/',views.hello, name='hello'),
-]
+    path('count',views.count, name='count'),
+    path('result',views.result, name='result'),
+    
+] 
 #url 패턴 목록을 포함하는 파일 

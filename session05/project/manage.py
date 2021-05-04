@@ -1,3 +1,4 @@
+#장고 프로젝트 관리를 도와주는 
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os
