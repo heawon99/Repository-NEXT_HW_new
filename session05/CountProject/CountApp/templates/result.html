@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        {% load static %}
-        <link rel="stylesheet" type="text/css"href="{% static 'result.css'%}">
-        <title>Document</title>
-    </head>
-    <body>
-       <p>입력한 텍스트: {{total_len}}</p>
-       <p>글자수: {{total_len}}</p>
-       <p>공백제외: {{no_blank_len}}</p>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel='stylesheet' type='text/css' href="{% static 'result.css' %}">
+    <title> Result</title>
+</head>
+<body>
+    
+    <div class="for-center">
+        <span class="text-rainbow">
+           당신의 스코어 입니다.만족하십니까?
+        </span>
+        
+        <div class="box">
+            <h1>당신이 입력한 글자: {{text}}</h1>
+            <h3>글자수: {{total_len}}</h2>
+            <h3>공백제외: {{no_blank_len}}</h3>
+            <h4>단어수: {{no_word}}</h4>
+        </div>
+    </div>
+</body>
+</html>

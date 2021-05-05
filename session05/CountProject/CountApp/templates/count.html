@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    <body>
-        <hl>글자를 입력해보세요!</hl>
-        <form action="{% url 'result'%}" method="post">{% csrf_token %}
-             <textarea name="text"id="" cols="30" rows="10"></textarea>
-             <br>
-             <input type="submit" value="제출">
-        </form>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel='stylesheet' type='text/css' href="{% static 'count.css' %}">
+    <title>Count</title>
+</head>
+<body>
+    <h1>[고려대]글자 누가 많이 많이 쓰나 대회</h1>
+    <img
+    width="70PX"
+    src="https://lh3.googleusercontent.com/proxy/EtKtEz6n4K3IOb1RULHKEKJ1x9ulWlfGtlYAm7IH58EdFowu5IbChqnDdw0w1fzjbk9zibvCk3BE0PiHtWCBPeNQAhCH5xPQ-rax57pmYnVTqaMKzR6HhE6Ncu0x">
+    <form action="{% url 'result' %}" method="post">{% csrf_token %}
+        <textarea name="text" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="제출">
+    </form>
+</body>
+</html>

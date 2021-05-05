@@ -1,10 +1,16 @@
-body{
-    background-color: aqua;
+* {
+    font-family: 'roboto', serif;
+    display:flex;
+}
 
+
+ody{
+    background-color: rgb(0, 0, 0);
+    
 }
 .box{
-    border: 3px dotted red;
-    background-color: white;
+    
+    background-color: rgb(255, 0, 221);
     width:70%;
     height: auto;
     display: flex;
@@ -20,22 +26,20 @@ body{
     align-items: center;
 }
 .text-rainbow {
-    background-image: linear-gradient(90deg, red, orange, yellow, green, blue, navy, purple);
-    -webkit-background-clip: text;
-    color: transparent;
-
+    
+    color:rgb(0, 0, 0);
     font-weight: bold;
     font-size: 40px;
   }
 h1{
-    color:red;
+    color:rgb(255, 255, 255);
 }
 h2{
-    color: orange;
+    color: rgb(255, 255, 255);
 }
 h3{
-    color:rgb(107, 107, 50);
+    color:rgb(0, 255, 0);
 }
 h4{
-    color: green;
+    color: rgb(0, 255, 0);
 }
