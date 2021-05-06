@@ -1,0 +1,32 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	font-size: 15px;
+} */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(231, 189, 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto', cursive;
+    font-size: 200px;
+    color:rgb(255, 255, 255);
+}
+
+.category {
+    border: solid rgb(0, 60, 255) 2px;
+    padding: 20px 40px 40px 40px;
+    border-radius: 20px;
+}
